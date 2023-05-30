@@ -3,7 +3,7 @@
 :root {
     --x: #000000;
     --y: #F6F6F6;
-    --z:  #22D4FD;
+    --z:  #FFB100;
 }
 
 * {
@@ -115,18 +115,19 @@ body {
 .cabecalho__menu {
     display: flex;
     justify-content:baseline;
-    gap: 50px;
+    gap: 3.12em;
     
 }
  
 @media (max-width: 1200px){
     .cabecalho {
-        padding: 10% 0% 0% 10% ;
+        padding: 10% 0% 0% 5% ;
      
      }
 
      .cabecalho__menu{
-        justify-content: center;
+        justify-content:left;
+        gap: 1.5rem;
      }
     
     
@@ -142,6 +143,10 @@ body {
 
     .imagem {
         width: 20rem;
+    }
+
+    .rodape{
+        font-size: 1rem;
     }
 
  }
